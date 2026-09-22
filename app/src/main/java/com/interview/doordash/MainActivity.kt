@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             DoordashChallengeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Doordash",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
